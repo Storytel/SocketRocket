@@ -10,10 +10,10 @@
 #import "SRProxyConnect.h"
 
 #import "NSRunLoop+SRWebSocket.h"
-#import "SRConstants.h"
-#import "SRError.h"
-#import "SRLog.h"
-#import "SRURLUtilities.h"
+#import "../SRConstants.h"
+#import "../Utilities/SRError.h"
+#import "../Utilities/SRLog.h"
+#import "../Utilities/SRURLUtilities.h"
 
 @interface SRProxyConnect() <NSStreamDelegate>
 
